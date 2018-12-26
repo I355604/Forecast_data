@@ -1,0 +1,120 @@
+
+
+{
+  "Header":[
+  {
+  "name":"PRODUCTID",
+  "type":"SKUID",
+  "values":[
+  "PNP LETTUCE HEADS CRISP",
+  "PNP TOMATOES ENGLISH 1KG",
+  "PNP BANANAS SMALL PP",
+  "COLD WATER BOTTLE",
+  "DIWALI SWEETS",
+  "ICE CREAM CUPID HEARTS",
+  "HOT WATER BOTTLE",
+  "CRAKERS"
+  ]
+ },
+  {
+      "name":"date",
+      "type":"date",
+      "start":"2016-01-01",
+      "end":"2017-01-01",
+      "date_format":"%Y-%m-%d"
+  },
+  {
+      "name":"location",
+      "type":"string",
+      "description":"loc",
+      "values":[
+          "china",
+          "africa"
+          ]
+
+  },
+  {
+    "name":"stock",
+    "type":"string",
+    "values":[
+        "yes",
+        "no"
+        ]
+
+},
+
+  {
+  "name":"holidaysale",
+  "type":"decimal",
+  "description":"holiday Sale",
+  "min":"1",
+  "max":"400"
+  },
+  {
+  "name":"seasonal sale",
+  "type":"decimal",
+  "description":"seasonal sale",
+  "min":"1",
+  "max":"400"
+  },
+  {
+  "name":"week day sale",
+  "type":"decimal",
+  "description":"weekend sale",
+  "min":"1",
+  "max":"400"
+  },
+   {
+  "name":" Total sales"
+
+  }
+
+  ],
+
+  "Number":[
+  {
+  "name":"data_entries",
+  "count":"100"
+  }
+  ],
+
+  "Holiday": [
+    {
+      "details":["PNP TOMATOES ENGLISH 1KG","2016-12-14"],
+
+      "holiday_percentage":"10",
+      "season_percentage":"10",
+      "weekends_percentage":"-40"
+    },
+    {
+      "details":["PNP TOMATOES ENGLISH 1KG","2016-12-26"],
+
+      "holiday_percentage":"10",
+      "season_percentage":"-10",
+      "weekends_percentage":"+40"
+    },
+    {
+      "details":["CRAKERS","2016-01-16"],
+
+      "holiday_percentage":"0",
+      "season_percentage":"50",
+      "weekends_percentage":"+40"
+    },
+    {
+      "details":["CRAKERS","2016-09-26"],
+
+      "holiday_percentage":"-40",
+      "season_percentage":"-50",
+      "weekends_percentage":"+40"
+    }
+     ],
+
+      "holiday_name":[{
+        "pub_holiday":["Holi","Ganesh Chaturthi","Dussehra","Rajyotsava Day","Deepawali"],
+        "pub_holiday_date":["2018-3-2","2016-9-13","2017-10-19","2016-11-1","2016-11-6"]
+        }],
+
+
+   "Numb_of_days":10,
+   "filename":"generalised_mockdata.csv"
+}
